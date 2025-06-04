@@ -1,14 +1,13 @@
-
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyC41IobINiDAxPS1cM3rBfvtchSN4uymc",
+  authDomain: "driver-form-test.firebaseapp.com",
+  projectId: "driver-form-test",
+  storageBucket: "driver-form-test.appspot.com",
+  messagingSenderId: "182444634610",
+  appId: "1:182444634610:web:34c867c8c6b6ef98797b6b"
 };
 
 const app = initializeApp(firebaseConfig);
